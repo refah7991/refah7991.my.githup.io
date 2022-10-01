@@ -1,0 +1,184 @@
+body {
+    font-family: "Maven Pro", sans-serif;
+    padding-top: 20px;
+}
+
+.full-screen {
+    padding: 8rem 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    font-weight: bolder;
+}
+
+a {
+    font-weight: normal;
+    text-decoration: none !important;
+    transition: all 0.4s ease;
+    font-weight: bolder;
+}
+
+a:hover {
+    color: #ffc200 !important;
+}
+
+.navbar-brand .uil {
+    font-size: 70px;
+}
+
+.wow {
+    position: relative;
+}
+
+.small-text {
+    color: #5b5b5b;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 50px;
+    letter-spacing: 0.2px;
+}
+
+.hard1 {
+    color: #ffc200;
+}
+
+p {
+    font-weight: bold;
+    color: #5b5b5b;
+}
+
+.custom-btn {
+    background: #eee;
+    color: #5b5b5b;
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 13px 29px;
+    font-size: 14px;
+    line-height: normal;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.custom-btn:hover {
+    color: #ffc200;
+}
+
+.custom-btn.custom-btn-bg {
+    background: #474559;
+    color: #ffffff;
+}
+
+.custom-btn.custom-btn-bg:hover {
+    background: #ffc200;
+    color: #ffffff !important;
+}
+
+.row .text-center i {
+    size: 50%;
+}
+
+h2 {
+    color: #5b5b5b;
+    font-weight: bolder;
+    border-left: 3px solid #ffc200;
+}
+
+#skills h2 {
+    border-left: 3px solid #ffbb00;
+    margin: 10px;
+}
+
+#skills ul li i {
+    padding: 10px;
+    margin: 10px;
+}
+
+.easy1 {
+    display: inline-flex;
+}
+
+.easy2 {
+    display: inline-flex;
+}
+
+.rounded-1 {
+    margin: 25px;
+}
+
+.rounded-2 {
+    margin: 25px;
+}
+
+.rounded-3 {
+    margin: 25px;
+}
+
+.rounded-4 {
+    margin: 25px;
+}
+
+.rounded-5 {
+    margin: 25px;
+}
+
+.rounded-6 {
+    margin: 25px;
+}
+
+.easy12 {
+    margin-left: 16px;
+    font-weight: bolder;
+    color: #5b5b5b;
+}
+
+.btn {
+    width: 50%;
+    background-color: #474559;
+}
+
+h3 {
+    font-weight: bolder;
+    color: #886a7f;
+}
+
+.btn {
+    color: #886a7f;
+    background-color: #eee;
+}
+
+#contact {
+    color: #9e9b96;
+    font-weight: bold;
+}
+
+.subtitle {
+    border-top: 1px solid #e0cf31;
+}
+
+.social-list {
+    display: inline-flex;
+}
+
+.social-list ul li a {
+    margin: 25px;
+}
+
+.normal {
+    color: #9c9690;
+    margin: 25px;
+    list-style: none;
+}
+
+
+/**********************************media jquery************************************************/
+
+@media (max-width: 575px) {
+    .rounded-3 .rounded-6 {}
+}
