@@ -100,6 +100,8 @@ h2 {
     margin: 10px;
 }
 
+
+/*
 .easy1 {
     display: inline-flex;
 }
@@ -107,6 +109,7 @@ h2 {
 .easy2 {
     display: inline-flex;
 }
+*/
 
 .rounded-1 {
     margin: 25px;
@@ -179,6 +182,8 @@ h3 {
 
 /**********************************media jquery************************************************/
 
-@media (max-width: 575px) {
-    .rounded-3 .rounded-6 {}
+@media (max-width: 576px) {
+    .project {
+        margin: 10px;
+    }
 }
